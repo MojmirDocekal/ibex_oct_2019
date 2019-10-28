@@ -28,7 +28,7 @@ var items = [ ["sep", "Separator", { }],
           ["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: { include: "example_intro.html" }}],
 
 
-["practice", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách, že 'Ve městě Er nikdo nepřečetl víc než 20 knih.' a komentuje to následující větou. </p> <p> Aleš: 'Takže někteří obyvatelé města Er přečetli i 25 knih.'</p><p><i>Alešův komentář ukazuje, že původní informaci špatně pochopil; vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</i></p>"}, leftComment: "(Aleš pochopil vše naprosto špatně)", rightComment: "(Aleš pochopil vše naprosto správně)"}],
+["practice", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách, že 'Ve městě Er nikdo nepřečetl víc než 20 knih.' a komentuje to následující větou. </p> <p> Aleš: 'Takže někteří obyvatelé města Er přečetli i 25 knih.'</p><p>Alešův komentář ukazuje, že původní informaci špatně pochopil; vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</p>"}, leftComment: "(Aleš pochopil vše naprosto špatně)", rightComment: "(Aleš pochopil vše naprosto správně)"}],
 
 
           ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
