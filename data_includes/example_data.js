@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("firstfiller"))), sepWith("sep", rshuffle(startsWith("followup"), startsWith("filler"))));
+var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("filler"))));
 
 var continueMessage = ["Klikni zde"];
 
