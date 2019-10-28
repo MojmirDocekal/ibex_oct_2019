@@ -40,7 +40,7 @@ var items = [ ["sep", "Separator", { }],
   [["first-item1-fewer", 1], aj, {s: {html: "<p>Kontext: Aleš čte nápis na balení potravin: 'Toto jídlo může obsahovat méně než 100 gramů cukru' a komentuje to následující větou.</p><p>Aleš: 'Takže v tom jídle se občas může objevit i 110 gramů cukru.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
 
 
-["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách, že 'Tři současní čeští básníci napsali (každý) přesně jednu knihu básní.' a komentuje to následující větou.</p><p>Věta: 'Takže ti tři básníci napsali přesně tři knihy básní.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
-["filler2-bad", aj, {s: {html: "<p>Kontext: čte informaci o městě Er: 'Radnice města Er je vysoká 40 metrů a každá budova v městě Er je nižší než radnice' a komentuje to následující větou.</p><p>Věta: 'Takže některé budovy v městě Er, včetně radnice, mají 45 metrů a víc'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách, že 'Tři současní čeští básníci napsali (každý) přesně jednu knihu básní.' a komentuje to následující větou.</p><p>Aleš: 'Takže ti tři básníci napsali přesně tři knihy básní.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+["filler2-bad", aj, {s: {html: "<p>Kontext: čte informaci o městě Er: 'Radnice města Er je vysoká 40 metrů a každá budova v městě Er je nižší než radnice' a komentuje to následující větou.</p><p>Aleš: 'Takže některé budovy v městě Er, včetně radnice, mají 45 metrů a víc'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
 
 ];
