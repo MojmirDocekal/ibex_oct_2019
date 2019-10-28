@@ -33,7 +33,12 @@ var items = [ ["sep", "Separator", { }],
 
           ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
 
-[["first-item1-at-most", 1], aj, {s: {html: "<p>Kontext: </p><p>Aleš: </p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+[["first-item1-at-most", 1], aj, {s: {html: "<p>Kontext: Aleš čte nápis na balení potravin: 'Toto jídlo může obsahovat nanejvýš 100 gramů cukru' a komentuje to následující větou.</p><p>Aleš: 'Takže v tom jídle se občas může objevit i 110 gramů cukru.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+
+  [["first-item1-no-more", 1], aj, {s: {html: "<p>Kontext: Aleš čte nápis na balení potravin: 'Toto jídlo může obsahovat ne víc než 100 gramů cukru' a komentuje to následující větou.</p><p>Aleš: 'Takže v tom jídle se občas může objevit i 110 gramů cukru.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+
+  [["first-item1-fewer", 1], aj, {s: {html: "<p>Kontext: Aleš čte nápis na balení potravin: 'Toto jídlo může obsahovat méně než 100 gramů cukru' a komentuje to následující větou.</p><p>Aleš: 'Takže v tom jídle se občas může objevit i 110 gramů cukru.'</p>"}, leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)"}],
+
 
 ["filler1-good", aj, {s: {html: "<p>Kontext: Anna si k Vánocům přála ze všeho nejvíc dvě knihy. Od rodičů dostala oblečení, kosmetiku a nový mobil. Od přítele dostala poukaz na cestování.</p><p>Věta: Anna byla smutná, že k Vánocům nedostala žádnou knihu.</p>"}, leftComment: "(v daném kontextu je věta naprosto nepřijatelná)", rightComment: "(v daném kontextu je věta zcela přijatelná)"}],
 ["filler2-bad", aj, {s: {html: "<p>Kontext: Školník si vybral všechny dny dovolené v létě, protože nebylo ve škole tolik práce jako přes školní rok.</p><p>Věta: Školník byl mrzutý, že mu na podzim zbyl ani jeden den dovolené.</p>"}, leftComment: "(v daném kontextu je věta naprosto nepřijatelná)", rightComment: "(v daném kontextu je věta zcela přijatelná)"}],
