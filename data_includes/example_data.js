@@ -60,7 +60,7 @@ var items = [ ["sep", "Separator", { }],
 
 ["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Tři současní čeští básníci napsali (každý) právě jednu knihu básní.' a komentuje to .</p><p>Alešův komentář: 'Takže ti tři básníci napsali tři knihy básní, co básník -- to knížka.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
-["filler2-bad", aj, {s: {html: "<p>Kontext: Aleš čte o na webových stránkách města Er následující větu: 'Radnice města Er je vysoká 40 metrů a každá budova v městě Er je nižší než výška radnice' a komentuje to. </p><p>Alešův komentář: 'Takže některé budovy v městě Er mají 45 metrů a víc'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+["filler2-bad", aj, {s: {html: "<p>Kontext: Aleš čte o na webových stránkách města Er následující větu: 'Radnice města Er je vysoká 40 metrů a každá budova v městě Er je nižší než výška radnice' a komentuje to. </p><p>Alešův komentář: 'Takže některé budovy v městě Er mají 45 metrů a víc.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
 ["filler3-good", aj, {s: {html: "<p>Kontext: Aleš si čte v novinách o korunovaci královny a vidí tam následující větu: 'Každý státník nepřiletěl letadlem.' a komentuje to .</p><p>Alešův komentář: 'Takže někteří státníci dorazili na korunovaci jinak než letadlem.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
@@ -68,6 +68,11 @@ var items = [ ["sep", "Separator", { }],
 
 ["filler5-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Průměrný obyvatel města Er vlastní 2.5 kočky.' a komentuje to .</p><p>Alešův komentář: 'Takže někteří obyvatelé v Er mají dvě kočky nebo míň, ale někteří mají tři kočky nebo víc.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
+["filler6-bad", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách, že 'průměrný obyvatel města Er si vloni nepřečetl ani jednu knížku' a komentuje to. </p><p>Alešův komentář: 'Takže průměrný obyvatel města Er si vloni přečetl dvě a více knížek''</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+["filler7-good", aj, {s: {html: "<p>Kontext: Aleš si čte statistickou zprávu o zemi Er a v ní je následující věta: 'Každý obyvatel země Er vlastní nanejvýš 3 kola.' a komentuje to .</p><p>Alešův komentář: 'Takže žádný obyvatel země Er nemá víc než 4 kola.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+["filler8-bad", aj, {s: {html: "<p>Kontext: Aleš si čte na Wikipedii o vzdálené sluneční soustavě Sol a vidí větu: 'V Sol má každá planeta nanejvýš 3 měsíce' a komentuje to. </p><p>Alešův komentář: 'Takže některé planety v Sol mají 4 nebo více měsíců.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
 
 ];
