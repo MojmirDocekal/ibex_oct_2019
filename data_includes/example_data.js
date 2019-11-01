@@ -63,6 +63,18 @@ var items = [ ["sep", "Separator", { }],
 
     [["first-item5-fewer", 5],  aj, {s: {html: "<p>Kontext: Aleš si čte studijní řád Miskatonické univerzity, kde vidí následující větu: 'Bakalářská práce může mít méně než 50 tisíc znaků', a komentuje to.</p><p>Alešův komentář: 'Takže některé bakalářské práce na Miskatonické univerzitě mohou mít i 60 tisíc znaků.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
+[["first-item6-at-most", 6], aj, {s: {html: "<p>Kontext: Aleš listuje v předpisech upravujících pracovní dobu pomocného personálu v mrakodrapu EB, kde vidí následující větu: 'Uklízečka v EB má dovoleno za den uklidit nanejvýš 10 kanceláří', a komentuje to.</p><p>Alešův komentář: 'Takže některé uklízečky v EB mohou za den uklidit i 12 kanceláří.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item6-no-more", 6], aj, {s: {html: "<p>Kontext: Aleš listuje v předpisech upravujících pracovní dobu pomocného personálu v mrakodrapu EB, kde vidí následující větu: 'Uklízečka v EB má dovoleno za den uklidit ne víc než 10 kanceláří', a komentuje to.</p><p>Alešův komentář: 'Takže některé uklízečky v EB mohou za den uklidit i 12 kanceláří.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item6-fewer", 6], aj, {s: {html: "<p>Kontext: Aleš listuje v předpisech upravujících pracovní dobu pomocného personálu v mrakodrapu EB, kde vidí následující větu: 'Uklízečka v EB má dovoleno za den uklidit méně než 10 kanceláří', a komentuje to.</p><p>Alešův komentář: 'Takže některé uklízečky v EB mohou za den uklidit i 12 kanceláří.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+[["first-item7-at-most", 7], aj, {s: {html: "<p>Kontext: Aleš si čte v novinách předpověď počasí na zítra a vidí tam následující větu: 'Zítra může napršet nanejvýš 10 mm srážek', a komentuje to.</p><p>Alešův komentář: 'Takže zítra možná naprší i 20 mm.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item7-no-more", 7], aj, {s: {html: "<p>Kontext: Aleš si čte v novinách předpověď počasí na zítra a vidí tam následující větu: 'Zítra může napršet ne víc než 10 mm srážek', a komentuje to.</p><p>Alešův komentář: 'Takže zítra možná naprší i 20 mm.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item7-fewer", 7],  aj, {s: {html: "<p>Kontext: Aleš si čte v novinách předpověď počasí na zítra a vidí tam následující větu: 'Zítra může napršet méně než 10 mm srážek', a komentuje to.</p><p>Alešův komentář: 'Takže zítra možná naprší i 20 mm.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
 
 ["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Tři současní čeští básníci napsali (každý) právě jednu knihu básní.' a komentuje to .</p><p>Alešův komentář: 'Takže ti tři básníci napsali tři knihy básní, co básník -- to knížka.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
