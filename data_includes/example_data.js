@@ -75,6 +75,12 @@ var items = [ ["sep", "Separator", { }],
 
     [["first-item7-fewer", 7],  aj, {s: {html: "<p>Kontext: Aleš si čte v novinách předpověď počasí na zítra a vidí tam následující větu: 'Zítra může napršet méně než 10 mm srážek', a komentuje to.</p><p>Alešův komentář: 'Takže zítra možná naprší i 20 mm.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
+[["first-item8-at-most", 8], aj, {s: {html: "<p>Kontext: Aleš si čte instrukce týkající se jubilejního dálkového pochodu z města Er a vidí tam následující větu: 'Účastníci jubilejního dálkového pochodu mohou ujít nanejvýš 40 km', a komentuje to.</p><p>Alešův komentář: 'Takže někteří účastníci toho pochodu ujdou i 50 km.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item8-no-more", 8], aj, {s: {html: "<p>Kontext: Aleš si čte instrukce týkající se jubilejního dálkového pochodu z města Er a vidí tam následující větu: 'Účastníci jubilejního dálkového pochodu mohou ujít ne víc než 40 km', a komentuje to.</p><p>Alešův komentář: 'Takže někteří účastníci toho pochodu ujdou i 50 km.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item8-fewer", 8], aj, {s: {html: "<p>Kontext: Aleš si čte instrukce týkající se jubilejního dálkového pochodu z města Er a vidí tam následující větu: 'Účastníci jubilejního dálkového pochodu mohou ujít méně než 40 km', a komentuje to.</p><p>Alešův komentář: 'Takže někteří účastníci toho pochodu ujdou i 50 km.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
 
 ["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Tři současní čeští básníci napsali (každý) právě jednu knihu básní.' a komentuje to .</p><p>Alešův komentář: 'Takže ti tři básníci napsali tři knihy básní, co básník -- to knížka.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
