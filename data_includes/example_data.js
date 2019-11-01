@@ -14,10 +14,10 @@ var defaults = [
     "Separator", { transfer: 800,
                    normalMessage: "Počkejte prosím na další položku v experimentu.",
                    errorMessage: "Špatně. Počkejte prosím na další položku v experimentu."
-                 },
-                   "AcceptabilityJudgment", { as: ["1", "2", "3", "4", "5"],
+         },
+    "AcceptabilityJudgment", { as: ["1", "2", "3", "4", "5"],
                                presentAsScale: true,
-                               leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)" },
+                               leftComment: "(Aleš pochopil vše naprosto správně)", rightComment: "(Aleš pochopil vše naprosto špatně)" },
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
 
