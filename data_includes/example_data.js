@@ -57,6 +57,12 @@ var items = [ ["sep", "Separator", { }],
 
     [["first-item4-fewer", 4], aj, {s: {html: "<p>Kontext: Aleš si čte pravidla práce revizorů v městské hromadné dopravě, kde stojí následující věta: 'Revizor má dovoleno zkontrolovat méně než 50 cestujících denně', a komentuje to.</p><p>Alešův komentář: 'Takže pilný revizor může zkontrolovat i 60 nebo víc cestujících denně.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
+[["first-item5-at-most", 5], aj, {s: {html: "<p>Kontext: Aleš si čte studijní řád Miskatonické univerzity, kde vidí následující větu: 'Bakalářská práce může mít nanejvýš 50 tisíc znaků', a komentuje to.</p><p>Alešův komentář: 'Takže některé bakalářské práce na Miskatonické univerzitě mohou mít i 60 tisíc znaků.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item5-no-more", 5], aj, {s: {html: "<p>Kontext: Aleš si čte studijní řád Miskatonické univerzity, kde vidí následující větu: 'Bakalářská práce může mít ne víc než 50 tisíc znaků', a komentuje to.</p><p>Alešův komentář: 'Takže některé bakalářské práce na Miskatonické univerzitě mohou mít i 60 tisíc znaků.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+    [["first-item5-fewer", 5],  aj, {s: {html: "<p>Kontext: Aleš si čte studijní řád Miskatonické univerzity, kde vidí následující větu: 'Bakalářská práce může mít méně než 50 tisíc znaků', a komentuje to.</p><p>Alešův komentář: 'Takže některé bakalářské práce na Miskatonické univerzitě mohou mít i 60 tisíc znaků.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
 
 ["filler1-good", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Tři současní čeští básníci napsali (každý) právě jednu knihu básní.' a komentuje to .</p><p>Alešův komentář: 'Takže ti tři básníci napsali tři knihy básní, co básník -- to knížka.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
