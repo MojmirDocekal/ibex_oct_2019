@@ -30,8 +30,11 @@ var items = [ ["sep", "Separator", { }],
 
 ["practice", aj, {s: {html: "<p>Kontext: Aleš si právě přečetl v novinách následující větu: 'Ve městě Er nikdo nepřečetl víc než 20 knih.' a komentuje to. </p> <p> Alešův komentář: 'Takže někteří obyvatelé města Er přečetli i 25 knih.'</p><p>Alešův komentář ukazuje, že původní větu špatně pochopil; vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
+  ["practice", aj, {s: {html: "<p>Kontext: Aleš zaslechl v ranních zprávách následující větu: 'Každý ministr země Sol má dva tiskové mluvčí.' a komentuje to. </p> <p> Alešův komentář: 'Jestli má vláda v Sol 10 ministrů, tak má ta vláda dohromady 20 tiskových mluvčích.'</p><p>Alešův komentář ukazuje, že původní větu pochopil naprosto správně; vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
-          ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
+  ["practice", aj, {s: {html: "<p>Kontext: Aleš si přečetl v jednom starém románu následující větu: 'Ti tři rytíři si koupili každý dva koně.' a komentuje to. </p> <p> Alešův komentář: 'Tak to měli ti rytíři dohromady sedm koní.'</p><p>Alešův komentář ukazuje, že původní větu pochopil naprosto špatně; vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
+
+["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
 
 [["first-item1-at-most", 1], aj, {s: {html: "/debug: first-item1-at-most/<p>Kontext: Aleš čte na obalu potravin následující větu: 'Toto balení může obsahovat nanejvýš 100 gramů cukru' a komentuje to.</p><p>Alešův komentář: 'Takže v tom jídle se občas může objevit i 110 gramů cukru.'</p>"}, leftComment: "(Alešův komentář je naprosto v rozporu s větou)", rightComment: "(Alešův komentář je naprosto v souladu s větou)"}],
 
